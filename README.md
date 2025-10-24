@@ -14,3 +14,11 @@ Open `ACP.m` in MATLAB and run the script.
 ```matlab
 run('ACP.m')
 ```
+
+##Output
+
+•3D scatter plots (original and normalized data)
+
+•Covariance matrix and eigen decomposition
+
+•Verification of eigenvector orthogonality
