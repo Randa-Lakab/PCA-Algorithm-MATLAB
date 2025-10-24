@@ -1,4 +1,4 @@
-# PCA Algorithm in MATLAB
+## PCA Algorithm in MATLAB
 
 This repository contains an implementation of **Principal Component Analysis (PCA)** in MATLAB, applied to 3D data visualization.
 
