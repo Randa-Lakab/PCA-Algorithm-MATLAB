@@ -33,25 +33,25 @@ grid on;
 title('Nuage centré-réduit');
 xlabel('X'); ylabel('Y'); zlabel('Z');
 
-% Calcul de la matrice de covariance
+% Calculation of the covariance matrix
 Mat_Cov = cov(A, 1);
 
-% Valeurs et vecteurs propres (analyse en composantes principales)
+% Eigenvalues ​​and eigenvectors (principal component analysis)
 [Vecteur, Valeur] = eig(Mat_Cov);
 
-% Affichage des axes principaux
+% Displaying the main axes
 hold on;
 quiver3(mean(X), mean(Y), mean(Z), Vecteur(1,1), Vecteur(2,1), Vecteur(3,1), 'LineWidth', 2);
 quiver3(mean(X), mean(Y), mean(Z), Vecteur(1,2), Vecteur(2,2), Vecteur(3,2), 'LineWidth', 2);
 quiver3(mean(X), mean(Y), mean(Z), Vecteur(1,3), Vecteur(2,3), Vecteur(3,3), 'LineWidth', 2);
 hold off;
 
-% Normalisation des vecteurs propres
+% Normalization of eigenvectors
 Vect1_norm = Vecteur(:,1) / norm(Vecteur(:,1));
 Vect2_norm = Vecteur(:,2) / norm(Vecteur(:,2));
 Vect3_norm = Vecteur(:,3) / norm(Vecteur(:,3));
 
-% Vérification de l'orthogonalité
+% Orthogonality Check
 disp('--- Vérification orthogonalité ---');
 disp(Vect1_norm' * Vect1_norm);
 disp(Vect2_norm' * Vect2_norm);
@@ -59,6 +59,7 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
 
 
 
