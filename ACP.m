@@ -1,4 +1,4 @@
-% Données initiales
+% Initial data
 X = [9.01 8.05 9.07 8.09 6.1 7.3 7.5 5.7 1 1.5 2 2.5 3 3.5 4.5 1 5.5 6 7 4.3];
 Y = [10.2 9.8 9.5 9 8.8 8.2 6.2 7.4 2 5.2 1 7.8 0.6 6.5 6.4 0.3 6.2 4.15 5.1 3.2];
 Z = [5 4 5 4 5 4 2 5 4 3.5 3 5 4 3 3.5 4 5 3 4 3];
@@ -59,3 +59,4 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
