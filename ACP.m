@@ -18,7 +18,7 @@ X = A(:,1) - mean(A(:,1));
 Y = A(:,2) - mean(A(:,2));
 Z = A(:,3) - mean(A(:,3));
 
-% Réduction (normalisation)
+% Reduction (normalization)
 X = X / sqrt((1/20) * X' * X);
 Y = Y / sqrt((1/20) * Y' * Y);
 Z = Z / sqrt((1/20) * Z' * Z);
@@ -59,6 +59,7 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
 
 
 
