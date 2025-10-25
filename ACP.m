@@ -13,7 +13,7 @@ grid on;
 title('Nuage de points initial');
 xlabel('X'); ylabel('Y'); zlabel('Z');
 
-% Centrage des variables
+% Centering variables
 X = A(:,1) - mean(A(:,1));
 Y = A(:,2) - mean(A(:,2));
 Z = A(:,3) - mean(A(:,3));
@@ -59,6 +59,7 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
 
 
 
