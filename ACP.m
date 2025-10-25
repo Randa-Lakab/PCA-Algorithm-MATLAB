@@ -6,7 +6,7 @@ Z = [5 4 5 4 5 4 2 5 4 3.5 3 5 4 3 3.5 4 5 3 4 3];
 % Combination into a single matrix (each column corresponds to a variable)
 A = [X' Y' Z'];
 
-% Visualisation du nuage de points en 3D
+% 3D Point Cloud Visualization
 figure;
 plot3(X, Y, Z, 'bo');
 grid on;
@@ -59,5 +59,6 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
 
 
