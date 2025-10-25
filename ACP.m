@@ -26,7 +26,7 @@ Z = Z / sqrt((1/20) * Z' * Z);
 % New center-reduced matrix
 A = [X Y Z];
 
-% Affichage du nuage centré-réduit
+% Centered-reduced cloud display
 figure;
 plot3(X, Y, Z, 'r*');
 grid on;
@@ -59,6 +59,7 @@ disp(Vect3_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect2_norm);
 disp(Vect2_norm' * Vect3_norm);
 disp(Vect1_norm' * Vect3_norm);
+
 
 
 
