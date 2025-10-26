@@ -10,7 +10,6 @@ This repository contains an implementation of **Principal Component Analysis (PC
 
 ### How to Run
 Open `ACP.m` in MATLAB and run the script.
-
 ```matlab
 run('ACP.m')
 ```
