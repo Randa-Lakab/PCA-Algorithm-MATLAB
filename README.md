@@ -15,7 +15,7 @@ Open `ACP.m` in MATLAB and run the script.
 run('ACP.m')
 ```
 
-## Output
+### Output
 
 •3D scatter plots (original and normalized data)
 
