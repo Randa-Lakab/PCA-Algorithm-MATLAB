@@ -8,7 +8,7 @@ This repository contains an implementation of **Principal Component Analysis (PC
 - Eigenvalues and eigenvectors calculation  
 - Visualization of principal axes in 3D  
 
-## How to Run
+### How to Run
 Open `ACP.m` in MATLAB and run the script.
 
 ```matlab
