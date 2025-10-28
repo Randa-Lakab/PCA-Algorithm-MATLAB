@@ -19,5 +19,4 @@ run('ACP.m')
 •3D scatter plots (original and normalized data)
 
 •Covariance matrix and eigen decomposition
-
 •Verification of eigenvector orthogonality
