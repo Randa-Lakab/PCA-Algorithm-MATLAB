@@ -16,7 +16,6 @@ run('ACP.m')
 ```
 
 ### Output
-
 •3D scatter plots (original and normalized data)
 
 •Covariance matrix and eigen decomposition
