@@ -7,6 +7,7 @@ This repository contains an implementation of **Principal Component Analysis (PC
 - Covariance matrix computation  
 - Eigenvalues and eigenvectors calculation  
 - Visualization of principal axes in 3D
+
   
 ### How to Run
 
