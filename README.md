@@ -17,8 +17,8 @@ run('ACP.m')
 
 ### Output
 
-•3D scatter plots (original and normalized data)
+•3D scatter plots (original and normalized data).
 
-•Covariance matrix and eigen decomposition
+•Covariance matrix and eigen decomposition.
 
-•Verification of eigenvector orthogonality
+•Verification of eigenvector orthogonality.
